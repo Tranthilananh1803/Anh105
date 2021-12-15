@@ -20,9 +20,11 @@ namespace Anh105.Migrations
             modelBuilder.Entity("Anh105.Models.PersonsAnh", b =>
                 {
                     b.Property<string>("PersonID")
+                      .HasMaxLength(20)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PersonName")
+                      .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.HasKey("PersonID");

@@ -13,5 +13,7 @@ namespace Anh105.Data{
         }
 
         public DbSet<Anh105.Models.PersonsAnh> PersonsAnh { get; set; }
+
+        public DbSet<Anh105.Models.TA105> TA105 { get; set; }
     }
 }

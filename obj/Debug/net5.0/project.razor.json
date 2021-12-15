@@ -15624,8 +15624,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Project\\Anh105\\Views\\TA105s\\Index.cshtml",
+      "TargetPath": "Views\\TA105s\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Project\\Anh105\\Views\\TA105s\\Edit.cshtml",
+      "TargetPath": "Views\\TA105s\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Project\\Anh105\\Views\\Persons\\Delete.cshtml",
       "TargetPath": "Views\\Persons\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Project\\Anh105\\Views\\TA105s\\Create.cshtml",
+      "TargetPath": "Views\\TA105s\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Project\\Anh105\\Views\\TA105s\\Details.cshtml",
+      "TargetPath": "Views\\TA105s\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Project\\Anh105\\Views\\TA105s\\Delete.cshtml",
+      "TargetPath": "Views\\TA105s\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -8,8 +8,10 @@ namespace Anh105.Models
     {
         [Key]
         [Display(Name = "Mã khách hàng")]
+        [StringLength(20)]
         public string PersonID { get; set; }
         [Display(Name = "Tên Khách hàng")]
+        [StringLength(50)]
         public string PersonName {get; set;}
 
     }

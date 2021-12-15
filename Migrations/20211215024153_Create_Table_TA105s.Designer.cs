@@ -2,14 +2,16 @@
 using Anh105.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Anh105.Migrations
 {
     [DbContext(typeof(AnhDBContext))]
-    partial class AnhDBContextModelSnapshot : ModelSnapshot
+    [Migration("20211215024153_Create_Table_TA105s")]
+    partial class Create_Table_TA105s
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

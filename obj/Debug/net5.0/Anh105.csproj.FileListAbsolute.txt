@@ -170,3 +170,8 @@ C:\Project\Anh105\obj\Debug\net5.0\Razor\Views\Persons\Delete.cshtml.g.cs
 C:\Project\Anh105\obj\Debug\net5.0\Razor\Views\Persons\Details.cshtml.g.cs
 C:\Project\Anh105\obj\Debug\net5.0\Razor\Views\Persons\Edit.cshtml.g.cs
 C:\Project\Anh105\obj\Debug\net5.0\Razor\Views\Persons\Index.cshtml.g.cs
+C:\Project\Anh105\obj\Debug\net5.0\Razor\Views\TA105s\Create.cshtml.g.cs
+C:\Project\Anh105\obj\Debug\net5.0\Razor\Views\TA105s\Delete.cshtml.g.cs
+C:\Project\Anh105\obj\Debug\net5.0\Razor\Views\TA105s\Details.cshtml.g.cs
+C:\Project\Anh105\obj\Debug\net5.0\Razor\Views\TA105s\Edit.cshtml.g.cs
+C:\Project\Anh105\obj\Debug\net5.0\Razor\Views\TA105s\Index.cshtml.g.cs

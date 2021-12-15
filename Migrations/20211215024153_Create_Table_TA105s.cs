@@ -2,27 +2,28 @@
 
 namespace Anh105.Migrations
 {
-    public partial class Create_Table_Persons : Migration
+    public partial class Create_Table_TA105s : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Persons",
+                name: "TA105s",
                 columns: table => new
                 {
-                    PersonID = table.Column<string>(type: "TEXT",maxLength: 20, nullable: false),
-                    PersonName = table.Column<string>(type: "TEXT",maxLength: 50, nullable: true)
+                    TAid = table.Column<string>(type: "TEXT", maxLength: 20, nullable: false),
+                    TAName = table.Column<string>(type: "TEXT", maxLength: 50, nullable: true),
+                    TAGener = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Persons", x => x.PersonID);
+                    table.PrimaryKey("PK_TA105s", x => x.TAid);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Persons");
+                name: "TA105s");
         }
     }
 }
